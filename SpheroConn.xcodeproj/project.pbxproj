@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEEDF8911A9DDEFD0079F7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDF8901A9DDEFD0079F7F4 /* AppDelegate.swift */; };
+		FEEDF8931A9DDEFD0079F7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDF8921A9DDEFD0079F7F4 /* ViewController.swift */; };
+		FEEDF8961A9DDEFD0079F7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEEDF8941A9DDEFD0079F7F4 /* Main.storyboard */; };
+		FEEDF8981A9DDEFD0079F7F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEDF8971A9DDEFD0079F7F4 /* Images.xcassets */; };
+		FEEDF89B1A9DDEFD0079F7F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEEDF8991A9DDEFD0079F7F4 /* LaunchScreen.xib */; };
+		FEEDF8A71A9DDEFD0079F7F4 /* SpheroConnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDF8A61A9DDEFD0079F7F4 /* SpheroConnTests.swift */; };
+		FEEDF8B41A9DDF1C0079F7F4 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEDF8B11A9DDF1C0079F7F4 /* RobotUIKit.bundle */; };
+		FEEDF8B51A9DDF1C0079F7F4 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8B21A9DDF1C0079F7F4 /* RobotUIKit.framework */; };
+		FEEDF8B71A9DDF3F0079F7F4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8B61A9DDF3F0079F7F4 /* libsqlite3.dylib */; };
+		FEEDF8B91A9DDF4A0079F7F4 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8B81A9DDF4A0079F7F4 /* libstdc++.dylib */; };
+		FEEDF8BB1A9DDF590079F7F4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8BA1A9DDF590079F7F4 /* ExternalAccessory.framework */; };
+		FEEDF8BD1A9DDF640079F7F4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8BC1A9DDF640079F7F4 /* CoreBluetooth.framework */; };
+		FEEDF8C71A9EBA910079F7F4 /* SpheroDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEDF8C61A9EBA910079F7F4 /* SpheroDevice.swift */; };
+		FEEDF8C91A9ECE2C0079F7F4 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEDF8C81A9ECE2C0079F7F4 /* RobotKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEEDF8A11A9DDEFD0079F7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEEDF8831A9DDEFD0079F7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEEDF88A1A9DDEFD0079F7F4;
+			remoteInfo = SpheroConn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEEDF88B1A9DDEFD0079F7F4 /* SpheroConn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroConn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDF88F1A9DDEFD0079F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDF8901A9DDEFD0079F7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEEDF8921A9DDEFD0079F7F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEEDF8951A9DDEFD0079F7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEEDF8971A9DDEFD0079F7F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEEDF89A1A9DDEFD0079F7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FEEDF8A01A9DDEFD0079F7F4 /* SpheroConnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroConnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEDF8A51A9DDEFD0079F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEDF8A61A9DDEFD0079F7F4 /* SpheroConnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpheroConnTests.swift; sourceTree = "<group>"; };
+		FEEDF8B11A9DDF1C0079F7F4 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RobotUIKit.bundle; path = ../lib/frameworks/RobotUIKit.bundle; sourceTree = "<group>"; };
+		FEEDF8B21A9DDF1C0079F7F4 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = ../lib/frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		FEEDF8B61A9DDF3F0079F7F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FEEDF8B81A9DDF4A0079F7F4 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		FEEDF8BA1A9DDF590079F7F4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		FEEDF8BC1A9DDF640079F7F4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FEEDF8BF1A9DDFBC0079F7F4 /* SpheroConn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpheroConn-Bridging-Header.h"; sourceTree = "<group>"; };
+		FEEDF8C61A9EBA910079F7F4 /* SpheroDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpheroDevice.swift; sourceTree = "<group>"; };
+		FEEDF8C81A9ECE2C0079F7F4 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = lib/frameworks/RobotKit.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEEDF8881A9DDEFD0079F7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDF8BD1A9DDF640079F7F4 /* CoreBluetooth.framework in Frameworks */,
+				FEEDF8BB1A9DDF590079F7F4 /* ExternalAccessory.framework in Frameworks */,
+				FEEDF8C91A9ECE2C0079F7F4 /* RobotKit.framework in Frameworks */,
+				FEEDF8B91A9DDF4A0079F7F4 /* libstdc++.dylib in Frameworks */,
+				FEEDF8B71A9DDF3F0079F7F4 /* libsqlite3.dylib in Frameworks */,
+				FEEDF8B51A9DDF1C0079F7F4 /* RobotUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDF89D1A9DDEFD0079F7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEEDF8821A9DDEFD0079F7F4 = {
+			isa = PBXGroup;
+			children = (
+				FEEDF88D1A9DDEFD0079F7F4 /* SpheroConn */,
+				FEEDF8A31A9DDEFD0079F7F4 /* SpheroConnTests */,
+				FEEDF88C1A9DDEFD0079F7F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEEDF88C1A9DDEFD0079F7F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF88B1A9DDEFD0079F7F4 /* SpheroConn.app */,
+				FEEDF8A01A9DDEFD0079F7F4 /* SpheroConnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEEDF88D1A9DDEFD0079F7F4 /* SpheroConn */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF8901A9DDEFD0079F7F4 /* AppDelegate.swift */,
+				FEEDF8921A9DDEFD0079F7F4 /* ViewController.swift */,
+				FEEDF8C61A9EBA910079F7F4 /* SpheroDevice.swift */,
+				FEEDF8941A9DDEFD0079F7F4 /* Main.storyboard */,
+				FEEDF8971A9DDEFD0079F7F4 /* Images.xcassets */,
+				FEEDF8991A9DDEFD0079F7F4 /* LaunchScreen.xib */,
+				FEEDF8BE1A9DDF700079F7F4 /* Frameworks */,
+				FEEDF88E1A9DDEFD0079F7F4 /* Supporting Files */,
+				FEEDF8BF1A9DDFBC0079F7F4 /* SpheroConn-Bridging-Header.h */,
+			);
+			path = SpheroConn;
+			sourceTree = "<group>";
+		};
+		FEEDF88E1A9DDEFD0079F7F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF88F1A9DDEFD0079F7F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEEDF8A31A9DDEFD0079F7F4 /* SpheroConnTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF8A61A9DDEFD0079F7F4 /* SpheroConnTests.swift */,
+				FEEDF8A41A9DDEFD0079F7F4 /* Supporting Files */,
+			);
+			path = SpheroConnTests;
+			sourceTree = "<group>";
+		};
+		FEEDF8A41A9DDEFD0079F7F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF8A51A9DDEFD0079F7F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEEDF8BE1A9DDF700079F7F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDF8B81A9DDF4A0079F7F4 /* libstdc++.dylib */,
+				FEEDF8B61A9DDF3F0079F7F4 /* libsqlite3.dylib */,
+				FEEDF8BC1A9DDF640079F7F4 /* CoreBluetooth.framework */,
+				FEEDF8BA1A9DDF590079F7F4 /* ExternalAccessory.framework */,
+				FEEDF8C81A9ECE2C0079F7F4 /* RobotKit.framework */,
+				FEEDF8B21A9DDF1C0079F7F4 /* RobotUIKit.framework */,
+				FEEDF8B11A9DDF1C0079F7F4 /* RobotUIKit.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEEDF88A1A9DDEFD0079F7F4 /* SpheroConn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEDF8AA1A9DDEFD0079F7F4 /* Build configuration list for PBXNativeTarget "SpheroConn" */;
+			buildPhases = (
+				FEEDF8871A9DDEFD0079F7F4 /* Sources */,
+				FEEDF8881A9DDEFD0079F7F4 /* Frameworks */,
+				FEEDF8891A9DDEFD0079F7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroConn;
+			productName = SpheroConn;
+			productReference = FEEDF88B1A9DDEFD0079F7F4 /* SpheroConn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEEDF89F1A9DDEFD0079F7F4 /* SpheroConnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEDF8AD1A9DDEFD0079F7F4 /* Build configuration list for PBXNativeTarget "SpheroConnTests" */;
+			buildPhases = (
+				FEEDF89C1A9DDEFD0079F7F4 /* Sources */,
+				FEEDF89D1A9DDEFD0079F7F4 /* Frameworks */,
+				FEEDF89E1A9DDEFD0079F7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEEDF8A21A9DDEFD0079F7F4 /* PBXTargetDependency */,
+			);
+			name = SpheroConnTests;
+			productName = SpheroConnTests;
+			productReference = FEEDF8A01A9DDEFD0079F7F4 /* SpheroConnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEEDF8831A9DDEFD0079F7F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sodas;
+				TargetAttributes = {
+					FEEDF88A1A9DDEFD0079F7F4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FEEDF89F1A9DDEFD0079F7F4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FEEDF88A1A9DDEFD0079F7F4;
+					};
+				};
+			};
+			buildConfigurationList = FEEDF8861A9DDEFD0079F7F4 /* Build configuration list for PBXProject "SpheroConn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEDF8821A9DDEFD0079F7F4;
+			productRefGroup = FEEDF88C1A9DDEFD0079F7F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEEDF88A1A9DDEFD0079F7F4 /* SpheroConn */,
+				FEEDF89F1A9DDEFD0079F7F4 /* SpheroConnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEEDF8891A9DDEFD0079F7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDF8961A9DDEFD0079F7F4 /* Main.storyboard in Resources */,
+				FEEDF8B41A9DDF1C0079F7F4 /* RobotUIKit.bundle in Resources */,
+				FEEDF89B1A9DDEFD0079F7F4 /* LaunchScreen.xib in Resources */,
+				FEEDF8981A9DDEFD0079F7F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDF89E1A9DDEFD0079F7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEEDF8871A9DDEFD0079F7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDF8931A9DDEFD0079F7F4 /* ViewController.swift in Sources */,
+				FEEDF8C71A9EBA910079F7F4 /* SpheroDevice.swift in Sources */,
+				FEEDF8911A9DDEFD0079F7F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEDF89C1A9DDEFD0079F7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEDF8A71A9DDEFD0079F7F4 /* SpheroConnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEEDF8A21A9DDEFD0079F7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEEDF88A1A9DDEFD0079F7F4 /* SpheroConn */;
+			targetProxy = FEEDF8A11A9DDEFD0079F7F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEEDF8941A9DDEFD0079F7F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEDF8951A9DDEFD0079F7F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEEDF8991A9DDEFD0079F7F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEEDF89A1A9DDEFD0079F7F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEEDF8A81A9DDEFD0079F7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FEEDF8A91A9DDEFD0079F7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEEDF8AB1A9DDEFD0079F7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpheroConn",
+					"$(PROJECT_DIR)/lib/frameworks",
+				);
+				INFOPLIST_FILE = SpheroConn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpheroConn/SpheroConn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEEDF8AC1A9DDEFD0079F7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpheroConn",
+					"$(PROJECT_DIR)/lib/frameworks",
+				);
+				INFOPLIST_FILE = SpheroConn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpheroConn/SpheroConn-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FEEDF8AE1A9DDEFD0079F7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpheroConnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpheroConn.app/SpheroConn";
+			};
+			name = Debug;
+		};
+		FEEDF8AF1A9DDEFD0079F7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpheroConnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpheroConn.app/SpheroConn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEEDF8861A9DDEFD0079F7F4 /* Build configuration list for PBXProject "SpheroConn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDF8A81A9DDEFD0079F7F4 /* Debug */,
+				FEEDF8A91A9DDEFD0079F7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEDF8AA1A9DDEFD0079F7F4 /* Build configuration list for PBXNativeTarget "SpheroConn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDF8AB1A9DDEFD0079F7F4 /* Debug */,
+				FEEDF8AC1A9DDEFD0079F7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEEDF8AD1A9DDEFD0079F7F4 /* Build configuration list for PBXNativeTarget "SpheroConnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEDF8AE1A9DDEFD0079F7F4 /* Debug */,
+				FEEDF8AF1A9DDEFD0079F7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEEDF8831A9DDEFD0079F7F4 /* Project object */;
+}
