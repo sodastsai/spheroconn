@@ -2,7 +2,7 @@
 
 * This test project is written in Swift with Xcode 6.1.1
 * The Sphero SDK used is 3.0.0-Beta2 and is included by git-submodule.
-  thus, while clonging, remember to setup the submodule.
+  thus, while cloning, remember to setup the submodule.
   you could do this via ```git clone --recursive```
   
   
