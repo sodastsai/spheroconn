@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  SpheroConn
 //
@@ -30,7 +30,7 @@ class ViewController: UIViewController, SpheroDeviceDelegate {
     @IBAction func connectSphero(sender: AnyObject) {
         if robot != nil {
             NSLog("Button clicked: disconnect")
-			RKRobotDiscoveryAgent.disconnectAll();
+			robot?.disconnect();
         } else {
             NSLog("Button clicked: connect")
 			RKRobotDiscoveryAgent.startDiscovery()
