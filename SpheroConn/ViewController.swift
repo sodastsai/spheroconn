@@ -33,6 +33,7 @@ class ViewController: UIViewController, SpheroDeviceDelegate {
 			robot?.disconnect();
         } else {
             NSLog("Button clicked: connect")
+			RKRobotDiscoveryAgent.stopDiscovery();
 			RKRobotDiscoveryAgent.startDiscovery()
         }
     }
