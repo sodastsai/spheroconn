@@ -17,28 +17,24 @@ class SpheroDevice: NSObject {
 
     // MARK: - Properties
 
-    weak var delegate: SpheroDeviceDelegate?
+    var delegate: SpheroDeviceDelegate?
     var robot: RKConvenienceRobot?
     private var spheroLightIsOn: Bool = false
 
     // MARK: - Object Lifecycle
 
     override init() {
-        super.init()
-
         NSLog("SpheroDevice Created")
-
+		super.init()
         RKRobotDiscoveryAgent.sharedAgent().addNotificationObserver(self,
             selector: "handleRobotStateChangeNotification:")
-        RKRobotDiscoveryAgent.startDiscovery()
     }
 
+	
     deinit {
         NSLog("SpheroDevice Destroyed")
-
         self.robot?.disconnect()
         self.handleDisconnected()
-
         RKRobotDiscoveryAgent.sharedAgent().removeNotificationObserver(self)
     }
 
