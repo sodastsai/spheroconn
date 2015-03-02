@@ -12,29 +12,29 @@ class ViewController: UIViewController, SpheroDeviceDelegate {
 
     // MARK: - Properties
 
-	var spheroDevice: SpheroDevice!
-	var robot : RKConvenienceRobot?
+    var spheroDevice: SpheroDevice!
+    var robot : RKConvenienceRobot?
 
     @IBOutlet weak var connectionStatusLabel: UILabel!
     @IBOutlet weak var actionButton: UIButton!
 
 
-	override func viewDidLoad() {
-		print("viewDidLoad()");
-		spheroDevice = SpheroDevice();
-		spheroDevice.delegate = self;
-		print("end-viewDidLoad()");
-	}
-	// MARK: - Action
+    override func viewDidLoad() {
+        print("viewDidLoad()");
+        spheroDevice = SpheroDevice();
+        spheroDevice.delegate = self;
+        print("end-viewDidLoad()");
+    }
+    // MARK: - Action
 
     @IBAction func connectSphero(sender: AnyObject) {
         if robot != nil {
             NSLog("Button clicked: disconnect")
-			robot?.disconnect();
+            robot?.disconnect();
         } else {
             NSLog("Button clicked: connect")
-			RKRobotDiscoveryAgent.stopDiscovery();
-			RKRobotDiscoveryAgent.startDiscovery()
+            RKRobotDiscoveryAgent.stopDiscovery();
+            RKRobotDiscoveryAgent.startDiscovery()
         }
     }
 
@@ -43,13 +43,13 @@ class ViewController: UIViewController, SpheroDeviceDelegate {
     func spheroDeviceConnected(spheroDevice: SpheroDevice) {
         self.connectionStatusLabel.text = "Connected"
         self.actionButton.setTitle("Disconnect Sphero", forState: .Normal)
-		self.robot = spheroDevice.robot;
+        self.robot = spheroDevice.robot;
     }
 
     func spheroDeviceDisconnected(spheroDevice: SpheroDevice) {
         self.connectionStatusLabel.text = "Not yet connected"
         self.actionButton.setTitle("Connect Sphero", forState: .Normal)
-		self.robot = nil;
+        self.robot = nil;
     }
     
 }
