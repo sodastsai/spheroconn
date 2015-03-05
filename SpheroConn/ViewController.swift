@@ -23,7 +23,16 @@ class ViewController: UIViewController, SpheroDeviceDelegate {
 		print("viewDidLoad()");
 		spheroDevice = SpheroDevice();
 		spheroDevice.delegate = self;
+		NSNotificationCenter.defaultCenter().addObserver(self, selector: "appWillExit:", name: UIApplicationDidEnterBackgroundNotification, object: nil);
 		print("end-viewDidLoad()");
+	}
+
+	
+	func appWillExit(n: NSNotification){
+		if(robot != nil){
+			RKRobotDiscoveryAgent.connect(robot); // calling 'connect' on a connected robot is a noop
+			robot?.sleep();
+		}
 	}
 	// MARK: - Action
 
